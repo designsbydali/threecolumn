@@ -1,0 +1,147 @@
+body{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  background-color: #333;
+}
+.brand-statement{
+  color: #222;
+}
+.navbar{
+  border-bottom: none;
+  background-color: #222;
+}
+.navbar-brand{
+  height: 70px;
+  padding: 23px;
+}
+.body-text{
+  line-height: 20px;
+}
+.title{
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  letter-spacing: .02em;
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Questrial', sans-serif;*/
+  /*font-family: 'Meera Inimai', sans-serif;*/
+  /*font-family: 'Mallanna', sans-serif;*/
+}
+.sub-title{
+  font-style: italic;
+}
+.city{
+  color: grey;
+  font-size: 14px;
+  margin: 0;
+}
+.date{
+  color: tomato;
+}
+
+.left-title{
+  color: #ffffff;
+}
+.name{
+  color: #000000;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.tag{
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
+.left{
+  /*background-color: #29a0da;*/
+  background-color: tomato;
+  padding: 20px;
+  border-bottom-left-radius: 50px;
+  border-top: 5px solid white;
+  margin-bottom: 20px;
+}
+.right{
+  /*background-color: #e1e1e1;*/
+  /*border: 5px solid tomato;*/
+  /*padding: 20px;*/
+}
+.right-title{
+  color: #29a0da;
+  margin-top: 10px;
+}
+
+a{
+  color: grey;
+}
+a:visited, a:active{
+  color: grey;
+}
+a:hover{
+  /*color: #29a0da;*/
+  color: tomato;
+}
+.myinfo{
+  padding: 0 0 0 10px;
+}
+.skills{
+  padding-top: 85px;
+}
+.skillstext{
+  padding: 20px;
+}
+
+.portfolio, .albatross {
+  padding: 5px 0 40px 20px;
+}
+
+.petfinder, .lyricist, .rooms, .ga, .scsu{
+  padding: 5px 0 0 20px;
+}
+.profile{
+  letter-spacing: .02em;
+  padding: 0 0 20px 10px;
+}
+.professional{
+  line-height: 25px;
+  font-size: 14px;
+}
+/*.personal{
+  line-height: 25px;
+  font-size: 13px;
+  padding: 20px;
+}*/
+/*#personal{
+  border-top: 10px solid white;
+  background-color: #29a0da;
+}*/
+#projects, #experience, #education{
+  border-top: 5px solid white;
+}
+
+/* Float */
+
+.hvr-float {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
+footer{
+  text-align: center;
+}
+.footer-text{
+  margin-top: 20px;
+}
