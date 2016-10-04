@@ -11,6 +11,15 @@ body{
   border-bottom: none;
   background-color: #222;
 }
+.menu{
+  padding: 15px 20px 15px 0px;
+}
+footer{
+  float: right;
+  margin: 0;
+  padding: 0;
+  /*text-align: center;*/
+}
 .navbar-brand{
   height: 70px;
   padding: 23px;
@@ -20,10 +29,10 @@ body{
 }
 .title{
   font-size: 30px;
-  font-family: 'Roboto Slab', serif;
+  /*font-family: 'Roboto Slab', serif;*/
   font-weight: bold;
   letter-spacing: .02em;
-  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   /*font-family: 'Questrial', sans-serif;*/
   /*font-family: 'Meera Inimai', sans-serif;*/
   /*font-family: 'Mallanna', sans-serif;*/
@@ -138,10 +147,4 @@ a:hover{
 .hvr-float:focus,
 .hvr-float:active {
   transform: translateY(-8px);
-}
-footer{
-  text-align: center;
-}
-.footer-text{
-  margin-top: 20px;
 }
