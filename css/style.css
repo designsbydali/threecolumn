@@ -29,10 +29,10 @@ footer{
 }
 .title{
   font-size: 30px;
-  /*font-family: 'Roboto Slab', serif;*/
+  font-family: 'Roboto Slab', serif;
   font-weight: bold;
   letter-spacing: .02em;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   /*font-family: 'Questrial', sans-serif;*/
   /*font-family: 'Meera Inimai', sans-serif;*/
   /*font-family: 'Mallanna', sans-serif;*/
