@@ -3,16 +3,17 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   background-color: #333;
-}
-.brand-statement{
-  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .navbar{
   border-bottom: none;
   background-color: #222;
+  padding: 2px;
 }
-.menu{
-  padding: 15px 20px 15px 0px;
+navbar-brand{
+  height: 80px;
+  padding: 25px 0 0 0px;
 }
 header{
   float: right;
@@ -20,10 +21,24 @@ header{
   padding: 0;
   /*text-align: center;*/
 }
-.navbar-brand{
-  height: 70px;
-  padding: 25px 0 0 0px;
+.brand-statement{
+  color: #222;
+}
+blockquote{
+  font-size: 18px;
 
+}
+.phone, .email{
+  color: white;
+  font-size: 20px;
+}
+.phone:hover, .email:hover{
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+.menu{
+  padding: 15px 20px 15px 0px;
 }
 .body-text{
   line-height: 20px;
@@ -40,6 +55,7 @@ header{
 }
 .sub-title{
   font-style: italic;
+  margin-top: 0;
 }
 .city{
   color: grey;
@@ -49,9 +65,9 @@ header{
 .date{
   color: tomato;
 }
-
 .left-title{
   color: #ffffff;
+  margin-top: 0px;
 }
 .name{
   color: #000000;
@@ -61,12 +77,12 @@ header{
 }
 .tag{
   color: #000000;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
 }
 .left{
-  /*background-color: #29a0da;*/
-  background-color: tomato;
+  background-color: #29a0da;
+  /*background-color: tomato;*/
   padding: 20px;
   border-bottom-left-radius: 50px;
   border-top: 5px solid white;
@@ -89,48 +105,40 @@ a:visited, a:active{
   color: grey;
 }
 a:hover{
-  /*color: #29a0da;*/
-  color: tomato;
+  color: #29a0da;
+  /*color: tomato;*/
 }
 .myinfo{
   padding: 0 0 0 10px;
 }
 .skills{
-  padding-top: 85px;
+  padding-top: 63px;
 }
 .skillstext{
   padding: 20px;
 }
 
 .portfolio, .albatross {
-  padding: 5px 0 40px 20px;
+  padding: 5px 0 20px 20px;
 }
 
 .petfinder, .lyricist, .rooms, .ga, .scsu{
-  padding: 5px 0 0 20px;
+  padding: 5px 0 20px 20px;
 }
 .profile{
   letter-spacing: .02em;
-  padding: 0 0 20px 10px;
+  padding: 0 0 0px 10px;
 }
 .professional{
   line-height: 25px;
   font-size: 14px;
 }
-/*.personal{
-  line-height: 25px;
-  font-size: 13px;
-  padding: 20px;
-}*/
-/*#personal{
-  border-top: 10px solid white;
-  background-color: #29a0da;
-}*/
+
 #projects, #experience, #education{
   border-top: 5px solid white;
 }
 
-/* Float */
+/* Float Animation */
 
 .hvr-float {
   cursor: pointer;
