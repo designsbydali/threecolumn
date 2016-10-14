@@ -29,12 +29,12 @@ blockquote{
 
 }
 .phone, .email{
-  color: white;
+  color: #fff;
   font-size: 20px;
 }
 .phone:hover, .email:hover{
   text-decoration: none;
-  color: #222;
+  color: #000;
   font-size: 20px;
 }
 .menu{
