@@ -40,6 +40,9 @@ blockquote{
 .menu{
   padding: 15px 20px 15px 0px;
 }
+.menu>a{
+  padding: 1px;
+}
 .body-text{
   line-height: 20px;
 }
